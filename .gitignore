@@ -1,0 +1,19 @@
+# secrets
+.env
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# virtual environment (in case it ever ends up inside the project folder)
+venv/
+.venv/
+
+# runtime-generated data — remove these two lines if you actually want to version them
+device_state.json
+action_log.txt
+
+# editor/OS junk
+.vscode/
+.DS_Store

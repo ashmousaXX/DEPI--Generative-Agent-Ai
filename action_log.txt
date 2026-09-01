@@ -1,0 +1,4 @@
+[2026-09-01 06:11:24] control_light: living_room_light -> on (70%)
+[2026-09-01 06:12:47] set_thermostat: 22°C mode=cooling
+[2026-09-01 06:25:30] lock_unlock_door: front_door -> lock
+[2026-09-01 21:38:38] control_light: bedroom_light -> off (100%)

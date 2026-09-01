@@ -1,0 +1,20 @@
+{
+  "living_room_light": {
+    "status": "on",
+    "brightness": 70
+  },
+  "bedroom_light": {
+    "status": "off",
+    "brightness": 0
+  },
+  "thermostat": {
+    "temp": 22,
+    "mode": "cooling"
+  },
+  "front_door": {
+    "locked": true
+  },
+  "back_door": {
+    "locked": true
+  }
+}
