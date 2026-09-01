@@ -1,7 +1,7 @@
 {
   "living_room_light": {
     "status": "on",
-    "brightness": 70
+    "brightness": 50
   },
   "bedroom_light": {
     "status": "off",
@@ -12,7 +12,7 @@
     "mode": "cooling"
   },
   "front_door": {
-    "locked": true
+    "locked": false
   },
   "back_door": {
     "locked": true

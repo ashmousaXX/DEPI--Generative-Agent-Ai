@@ -16,7 +16,7 @@ def run():
             config=config,
         )
 
-        # لو فيه interrupt، اسأل المستخدم فعليًا وانتظر رده
+        # If there's an interrupt, actually ask the user and wait for their response
         while "__interrupt__" in result:
             question = result["__interrupt__"][0].value["question"]
             print(f"\n⚠️  {question}")

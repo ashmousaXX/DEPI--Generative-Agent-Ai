@@ -59,4 +59,7 @@ def lock_unlock_door(door_id: str, action: str) -> str:
     return f"Done: {door_id} is now {'locked' if action == 'lock' else 'unlocked'}"
 
 
+LIGHTING_TOOLS = [control_light, get_all_devices_status]
+CLIMATE_TOOLS = [set_thermostat, get_all_devices_status]
+SECURITY_TOOLS = [lock_unlock_door, get_all_devices_status]
 ALL_TOOLS = [get_all_devices_status, control_light, set_thermostat, lock_unlock_door]
